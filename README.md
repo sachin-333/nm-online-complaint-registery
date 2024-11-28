@@ -1,98 +1,85 @@
-###FemGuard: Enhancing Women's Safety Through Technology
-FemGuard is an innovative cyber-physical system that leverages Artificial Intelligence (AI), Machine Learning (ML), Blockchain, and IoT to enhance women's safety and resilience. The project focuses on providing real-time safety measures, emergency response systems, and emotional support through advanced technologies.
+# Online Complaint Registration and Management System  
 
-##Table of Contents
-Introduction
-Features
-Technologies Used
-System Modules
-Installation Guide
-Contributing
-License
-Introduction
+### **Category**  
+Fullstack Development - MERN  
 
-FemGuard addresses the pressing need for improved women's safety by offering a comprehensive platform that integrates:
--Real-time crime analytics.
--Emergency response systems.
--Anonymous complaint reporting.
--Psychological support through AI chatbots.
--Wearable smart devices for instant SOS alerts.
+---
 
-##Features
+### **Skills Required**  
+- HTML, CSS  
+- React.js, Material UI, Bootstrap  
+- Node.js, Express.js  
+- MongoDB  
 
-1. Safe Zone Analysis
+---
 
-Real-time classification of areas into safe or unsafe zones using ML algorithms.
-Hotspot detection based on crime patterns.
-Emergency Response System
+### **Project Description**  
+An **Online Complaint Registration and Management System** enables users to register, track, and resolve complaints efficiently. It ensures secure communication between users and assigned agents while providing features like real-time tracking, automated notifications, and a centralized platform for managing complaints.  
 
-2. Trilateration-based real-time location tracking.
-Automated communication with local authorities and personal contacts during emergencies.
+---
 
-3. AI-Powered Chatbot
-Provides emotional and psychological support to users.
-Uses sentiment analysis to offer real-time stress and trauma management.
+### **Key Features**  
+1. **User Registration:** Create accounts to submit complaints and track progress.  
+2. **Complaint Submission:** Add details like name, description, address, and more.  
+3. **Tracking and Notifications:** Real-time updates on complaint progress via email/SMS.  
+4. **Agent Interaction:** Built-in chat for resolving complaints.  
+5. **Complaint Routing:** Assigns complaints to appropriate departments/agents.  
+6. **Security:** User authentication, data encryption, and compliance with regulations.  
 
-4. Wearable Smart Ring
-Cost-effective IoT device for instant SOS signal transmission.
+---
 
-5. Complaint Portal
-Multi-level reporting system categorizing incidents based on severity.
-Secure, anonymous reporting with blockchain-backed encryption.
+### **Scenario**  
+**Example Use Case**  
+John, a customer, faces an issue with a defective product. Using the platform, he:  
+1. Registers and logs in.  
+2. Submits a complaint with details and evidence.  
+3. Tracks updates and interacts with the assigned agent.  
+4. Receives a resolution and provides feedback.  
 
-##Technologies Used
-Frontend: Streamlit
-Backend: Python, FastAPI
-Database: MySQL
-AI/ML: PyTorch, NLTK, Decision Trees, XGBoost
-Blockchain: Cryptographic Hash Mapping
-IoT: ESP8266 Wi-Fi Module
-APIs: Google Maps, Twilio
+---
 
-##System Modules
-1. Safe Zone Analysis:
-Classifies zones as safe/unsafe based on real-time crime data and ML models.
+### **Technical Architecture**  
+**Frontend:**  
+- Developed using React.js, Bootstrap, and Material UI.  
+- API integration via Axios for seamless backend communication.  
 
-2. Emergency Response:
-Pinpoints user locations using trilateration and connects with emergency services.
+**Backend:**  
+- Express.js for server-side logic.  
+- MongoDB for scalable and efficient data storage.  
 
-3. Counseling Chatbot:
-Offers emotional support through AI-driven sentiment analysis.
+**Features:**  
+- **Authentication:** JSON Web Tokens (JWT) for secure access.  
+- **Routing:** Intelligent complaint assignment.  
+- **Chat System:** Interactive chat window for users and agents.  
 
-4. IoT Smart Ring:
-Sends SOS alerts with three simple taps, integrating with FemGuard's backend.
+---
 
-5. Complaint Portal:
-Allows secure and anonymous incident reporting with real-time tracking.
+### **Database Schemas**  
+1. **User Schema:** Stores user information (name, email, password, userType).  
+2. **Complaint Schema:** Manages complaints with fields like `name`, `address`, and `status`.  
+3. **Assigned Complaint Schema:** Tracks agent assignments and complaint resolution status.  
+4. **Chat Schema:** Logs communication between users and agents.  
 
-Installation Guide
-Clone the Repository:
+---
 
-bash
-Copy code
-git clone https://github.com/sachin-333/nm-online-complaint-registery.git
-cd Server
-Install Dependencies:
+### **Setup Instructions**  
+1. **Frontend:**  
+   - Install required libraries: React.js, Bootstrap, Material UI.  
+   - Create reusable UI components.  
+   - Integrate APIs for data binding.  
 
-bash
-Copy code
-pip install -r requirements.txt
-Set Up Database:
+2. **Backend:**  
+   - Set up Express.js server with middleware like `body-parser` and `cors`.  
+   - Implement routes for authentication, complaint handling, and admin operations.  
+   - Use Mongoose for database operations with MongoDB.  
 
-Install MySQL and configure the database schema using schema.sql.
-Run the Application:
+3. **Run Application:**  
+   - Use `npm start` for both frontend and backend after configuring the environment.  
 
-bash
-Copy code
-streamlit run app.py
-IoT Smart Ring Integration:
+---
 
-Configure the ESP8266 module with the provided firmware.
-Contributing
-Contributions are welcome! To contribute:
+### **Demo**  
+- **App Code:** [Google Drive Link](https://drive.google.com/drive/folders/1uGwb-keRJCab88xNFCD4EoXzZsDChZe3)  
+- **Demo Video:** [Google Drive Link](https://drive.google.com/drive/folders/1uGwb-keRJCab88xNFCD4EoXzZsDChZe3)  
 
-Fork the repository.
-Create a new branch (feature/your-feature-name).
-Commit your changes and submit a pull request.
-License
-This project is licensed under the MIT License. See the LICENSE file for details.
+---
