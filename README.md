@@ -80,6 +80,6 @@ John, a customer, faces an issue with a defective product. Using the platform, h
 
 ### **Demo**  
 - **App Code:** [Google Drive Link](https://drive.google.com/drive/folders/1uGwb-keRJCab88xNFCD4EoXzZsDChZe3)  
-- **Demo Video:** [Google Drive Link](https://drive.google.com/drive/folders/1uGwb-keRJCab88xNFCD4EoXzZsDChZe3)  
+- **Demo Video:** [Google Drive Link](https://drive.google.com/file/d/1gOtigGKJTA-QVbi4ppTDNDUgLC0pU0FF/view)  
 
 ---
